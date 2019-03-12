@@ -56,6 +56,5 @@ def add_s (arr)
     else
       element
     end
-    
   end
 end
