@@ -23,5 +23,9 @@ def swap_elements (arr)
 end
 
 def reverse_array(arr)
-  
+  reversed_arr = []
+  arr.each do |item|
+    reversed_arr.unshift(item)
+  end
+  reversed_arr
 end
