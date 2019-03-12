@@ -5,3 +5,7 @@ end
 def sort_array_desc (arr)
   arr.sort {|a, b| b<=>a}
 end
+
+def sort_array_char_count (arr)
+  arr.sort {|str_a, str_b| str_a.length <=> str_b.length}
+end
