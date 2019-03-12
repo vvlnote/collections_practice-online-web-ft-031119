@@ -54,4 +54,5 @@ def add_s (arr)
     if index != 1
       element << "s"
     end
+  end
 end
