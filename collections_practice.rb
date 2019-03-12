@@ -10,7 +10,7 @@ def sort_array_char_count (arr)
   arr.sort {|str_a, str_b| str_a.length <=> str_b.length}
 end
 
-def swap_elemetns_from_to (arr, index, destination_index)
+def swap_elements_from_to (arr, index, destination_index)
   temp = ""
   temp = arr[destination_index]
   arr[destination_index] = arr[index]
