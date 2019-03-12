@@ -40,5 +40,7 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.find
+  arr.select do |str|
+    str.start_with?"a"
+  end
 end
