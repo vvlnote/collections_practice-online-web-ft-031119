@@ -29,3 +29,7 @@ def reverse_array(arr)
   end
   reversed_arr
 end
+
+def kesha_maker(arr)
+  
+end
